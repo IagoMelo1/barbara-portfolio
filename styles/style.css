@@ -16,7 +16,7 @@ body {
 }
 
 img {
-    max-width: 100%;
+    max-width: 600%;
     display: block;
 }
 
@@ -120,6 +120,13 @@ img {
     grid-template-columns: 1.1fr 1fr;
     gap: 36px;
     align-items: start;
+}
+
+.about-image {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    margin-top: -50px;
 }
 
 .about-text p {
